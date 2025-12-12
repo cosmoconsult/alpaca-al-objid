@@ -11,25 +11,11 @@
 		{
 			"name": "Azure Function App: Telemetry",
 			"path": "azure-telemetry-app"
-		},
-		{
-			"name": "Node module: @vjeko.com/azure-func",
-			"path": "../@vjeko.com/azure-func"
-		},
-		{
-			"name": "Node module: @vjeko.com/azure-func-test",
-			"path": "../@vjeko.com/azure-func-test"
-		},
-		{
-			"name": "Root",
-			"path": "."
 		}
 	],
 	"settings": {
 		"files.exclude": {
-			"**/.git": true,
-			"**/dist": true,
-			"**/node_modules": true
+			"**/.git": true
 		},
 		"cSpell.words": [
 			"alext",
