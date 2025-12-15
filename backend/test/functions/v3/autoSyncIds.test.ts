@@ -78,7 +78,7 @@ describe("autoSyncIds", () => {
         });
 
         it("should create endpoint with anonymous auth level", () => {
-            expect(endpointConfig.authLevel).toBe("anonymous");
+            expect(endpointConfig.authLevel).toBe("function");
         });
 
         it("should register POST and PATCH handlers", () => {

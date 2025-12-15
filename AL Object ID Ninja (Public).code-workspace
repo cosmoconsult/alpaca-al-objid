@@ -1,10 +1,6 @@
 {
 	"folders": [
 		{
-			"name": "/",
-			"path": "."
-		},
-		{
 			"name": "Documentation",
 			"path": "doc"
 		},
@@ -19,11 +15,7 @@
 	],
 	"settings": {
 		"files.exclude": {
-			"**/.git": true,
-			"**/dist": true,
-			"**/node_modules": true,
-			"backend": true,
-			"extension": true
+			"**/.git": true
 		}
 	}
 }

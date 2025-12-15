@@ -64,7 +64,7 @@ withPermissionCheck(handler);
 export const syncIds = createEndpoint({
     moniker: "v3-syncIds",
     route: "v3/syncIds/{appId}",
-    authLevel: "anonymous",
+    authLevel: "function",
     POST: handler,
     PATCH: handler,
 });

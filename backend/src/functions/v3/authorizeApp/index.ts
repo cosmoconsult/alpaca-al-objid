@@ -145,7 +145,7 @@ withPermissionCheck(del);
 export const authorizeApp = createEndpoint({
     moniker: "v3-authorizeApp",
     route: "v3/authorizeApp/{appId}",
-    authLevel: "anonymous",
+    authLevel: "function",
     GET: get,
     POST: post,
     DELETE: del,

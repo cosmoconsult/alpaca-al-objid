@@ -73,7 +73,7 @@ describe("storeAssignment", () => {
         });
 
         it("should create endpoint with anonymous auth level", () => {
-            expect(storeAssignmentConfig.authLevel).toBe("anonymous");
+            expect(storeAssignmentConfig.authLevel).toBe("function");
         });
 
         it("should register only POST handler", () => {
@@ -97,7 +97,7 @@ describe("storeAssignment", () => {
         });
 
         it("should create delete endpoint with anonymous auth level", () => {
-            expect(storeAssignmentDeleteConfig.authLevel).toBe("anonymous");
+            expect(storeAssignmentDeleteConfig.authLevel).toBe("function");
         });
 
         it("should register only POST handler for delete endpoint", () => {

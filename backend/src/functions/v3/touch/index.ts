@@ -43,6 +43,6 @@ const post: AzureHttpHandler<TouchRequest, void> = async (req) => {
 export const touch = createEndpoint({
     moniker: "v3-touch",
     route: "v3/touch",
-    authLevel: "anonymous",
+    authLevel: "function",
     POST: post
 });
